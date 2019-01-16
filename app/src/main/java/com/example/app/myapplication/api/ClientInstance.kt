@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class ClientInstance {
     companion object {
-        private const val BASE_URL = "https://www.thesportsdb.com/api/v1/json/1/searchplayers.php?t=Arsenal"
+          private const val BASE_URL = "https://www.thesportsdb.com/api/v1/json/1/"
 
         val retrofit: Retrofit by lazy {
             return@lazy Retrofit.Builder()
